@@ -57,13 +57,13 @@ public class CourseController {
         }
     }
 
-    @GetMapping("/health")
+    @GetMapping("/health-main")
     public String healthCheck() {
         return "UP";
     }
 
 
-    @GetMapping("/fuelback")
+    @GetMapping("/fuelback-main")
     public String greetings() {
         return "Hello fuelback , AWS CICD Example working fine !";
     }
